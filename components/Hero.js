@@ -1,9 +1,24 @@
-import React from 'react'
+import Icons from "./Icons"
+
 function Hero() {
     return (
 
-        <section id="hero" className='relative'>
-            <div className='container mx-auto my-24 lg:mt-48'>
+        <section 
+            id="hero" 
+            className='relative'
+            >
+                <div 
+                    className="absolute inset-0 "
+                    style={{ 
+                        backgroundImage:`url(https://listlabs.com/wp-content/uploads/2022/10/keyart_listbio.png)`,
+                        backgroundSize: `75%`,
+                        backgroundPosition: `top right`,
+                        backgroundRepeat: `no-repeat`
+                    
+                    }}
+
+                />
+            <div className='container mx-auto py-24 lg:pt-48 relative'>
                 <div className="max-w-5xl lg:pr-20">
                     <div className="bullet relative">
                         <p className="my-8 label label-big ">
@@ -21,22 +36,26 @@ function Hero() {
                             the design and construction of the expansion via the establishment of new
                             provisional sister company, List&nbsp;Biotherapeutics.
                         </p>
-                        <p className="my-8 label label-small ">
+                        <p className="mt-8 mb-4 lg:mb-8 label label-small ">
                             CONTACT US
                         </p>
-                        <div className="flex -mx-4">
-                          <div className="w-1/2 px-4">
-                            <a href="#" className="rounded-[5px] btn bg-[#476E8A] text-white flex py-6 text-center justify-center items-center">
+                        <div className="flex flex-col lg:flex-row lg:-mx-2">
+                          <div className="w-full sm:w-1/2 lg:px-2 mb-4">
+                            <a href="#" className="rounded-[5px] btn bg-[#476E8A] hover:bg-[#143145] transition duration-200 border border-[#476E8A] text-white flex py-6 text-center justify-center items-center">
                               INVESTORS
                             </a>
                           </div>
-                          <div className="w-1/2 px-4">
-                          <a href="#" className="rounded-[5px] btn border-[#476E8A] border text-[#476E8A] py-6 flex text-center justify-center items-center">
+                          <div className="w-full sm:w-1/2 lg:px-2 mb-4">
+                          <a href="#" className="rounded-[5px] btn border-[#476E8A] hover:bg-[#476E8A] transition duration-200 hover:text-white border text-[#476E8A] py-6 flex text-center justify-center items-center">
                               INNOVATORS
                             </a>
                           </div>
                         </div>
                     </div>
+                </div>
+                <div className="mt-16">
+
+                <Icons />
                 </div>
             </div>
         </section>

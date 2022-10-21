@@ -2,8 +2,12 @@ import React from 'react'
 
 function Vision() {
     return (
-        <section id="vision" className='py-24'>
-            <div className="container mx-auto">
+        <section id="vision" className='py-24 relative'>
+          <div 
+          className="absolute inset-0 bg-cover bg-center"
+            style={{backgroundImage: `url(https://listlabs.com/wp-content/uploads/2022/10/vision_bg.png)`}}
+          />
+            <div className="container mx-auto relative">
                 <div className="bullet relative">
                     <p className="my-8 label label-big ">
                         Vision For The Future
@@ -11,7 +15,7 @@ function Vision() {
                 </div>
                 <div className="w-full lg:w-1/2">
                   <h2>
-                    Invested in Premium Phase&nbsp;III&nbsp;&amp;&nbsp;Commercial Contract&nbsp;Manufacturing
+                    Invested in Premium Phase III &amp; Commercial Contract Manufacturing
                   </h2>
                 </div>
                 <div className="flex flex-wrap -mx-4  lg:my-16">
@@ -29,15 +33,15 @@ function Vision() {
                 </div>
 
                 
-                <div className="bullet relative mb-16">
-                        <p className="my-8 label label-big ">
+                <div className="bullet relative">
+                        <p className="mt-8 lg:mb-16 mb-4 label label-big ">
                            More To Explore
                         </p>
                     </div>
 
-                    <div className="flex flex-wrap lg:-mx-12">
-                      <div className="w-full lg:w-1/2 lg:px-12">
-                        <div className="card text-white flex flex-col justify-between">
+                    <div className="flex flex-wrap items-stretch lg:-mx-12">
+                      <div className="w-full lg:w-1/2 lg:px-12 flex">
+                        <div className="card tilt text-white flex flex-col justify-between mb-8 lg:mb-0">
                           <div>
                             <h3 className='lg:mr-8'>
                             CDMO Services: Greater Capacity and End-to-End LBP&nbsp;Manufacturing
@@ -53,7 +57,7 @@ function Vision() {
                         </div>
                       </div>
                       <div className="w-full lg:w-1/2 lg:px-12">
-                        <div className="card text-white flex flex-col justify-between">
+                        <div className="card tilt text-white flex flex-col justify-between mb-8 lg:mb-0">
                           <div>
                             <h3 className='lg:mr-24'>
                             Leading Experience in Applications for Live Bacteria 

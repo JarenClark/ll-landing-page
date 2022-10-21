@@ -2,8 +2,8 @@ function AccentLine() {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="131"
-        height="12"
+        width="100%"
+        
         fill="none"
         viewBox="0 0 131 12"
       >
