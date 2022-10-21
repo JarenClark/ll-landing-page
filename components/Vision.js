@@ -4,7 +4,7 @@ function Vision() {
     return (
         <section id="vision" className='py-24 relative'>
           <div 
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover bg-center -mt-32"
             style={{backgroundImage: `url(https://listlabs.com/wp-content/uploads/2022/10/vision_bg.png)`}}
           />
             <div className="container mx-auto relative">

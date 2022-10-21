@@ -96,9 +96,9 @@ text-transform: uppercase;
 }
 
 /* SPECIFIC SECTIONS */
-#vision {
+/* #vision {
   background: linear-gradient(216.88deg, #CAD5DF 11.5%, #FFFFFF 47.78%);
-}
+} */
 .card {
   background: linear-gradient(127.71deg, #143145 24.25%, #557F9D 101%);
 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
